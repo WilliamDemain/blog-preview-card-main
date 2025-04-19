@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 100%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    display: flex; flex-direction: column; align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px #000;
+    max-width: 400px;
+    min-height: 500px;
+    padding: 15px;
+    text-align: left;
+}
+#image{
+    width: 100%;
+    border-radius: 10px;
+}
+.tag{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    margin: 16px 0 8px;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+.date{
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 16px;
+}
+.card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+.card .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.lowerBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user{
+    font-size: 10px;
+    font-weight: 800;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
