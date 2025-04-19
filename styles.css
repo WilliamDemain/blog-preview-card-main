@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: hsl(47, 100%, 63%);
+    background-color: hsl(47, 88%, 63%);
     font-family: 'Figtree', sans-serif;
     font-weight: 400;
     display: flex; flex-direction: column; align-items: center;
@@ -27,7 +27,7 @@ body{
     padding: 15px;
     text-align: left;
     border: solid black 1px;
-    transform: scale(1);
+    transform: scale(0.9);
     transform-origin: center;
 }
 #image{
@@ -54,6 +54,9 @@ body{
     font-size: 1.5rem;
     margin-bottom: 16px;
     line-height: 1.2;
+}
+.card h1:hover {
+    color: hsl(47, 88%, 63%);
 }
 .card .description {
     font-size: 1rem;
